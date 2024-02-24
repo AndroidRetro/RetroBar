@@ -1563,6 +1563,26 @@
         <Setter Property="Height"
                 Value="20" />
     </Style>
+
+    <Style TargetType="TextBlock"
+           x:Key="StartLabel"
+           BasedOn="{StaticResource StartLabel}">
+        <Setter Property="Text"
+                Value=" " />
+        <Setter Property="FontFamily"
+                Value="{DynamicResource start_text_xp_font_family}" />
+        <Setter Property="FontSize"
+                Value="19" />
+        <Setter Property="FontStyle"
+                Value="Italic" />
+        <Setter Property="FontWeight"
+                Value="Normal" />
+        <Setter Property="Margin"
+                Value="0,0,26,0" />
+        <Setter Property="Effect"
+                Value="{DynamicResource StartLabelShadow}" />
+        <Setter Property="TextOptions.TextRenderingMode"
+                Value="Grayscale" />
     </Style>
 
     <Style TargetType="TextBlock"
